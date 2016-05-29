@@ -13,6 +13,7 @@ syn keyword gfStructural incomplete of with open
 syn keyword gfStructural cat fun lincat lin oper flags
 syn match   gfStructural "\*\*\|-"
 syn keyword gfConditional case table overload
+syn keyword gfConditional let in
 
 " language
 syn match   gfFunction  "[[:alpha:]][[:alnum:]_]*"
