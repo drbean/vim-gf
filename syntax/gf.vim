@@ -16,7 +16,7 @@ syn keyword gfConditional case table overload
 syn keyword gfConditional let in
 
 " language
-syn match   gfFunction  "^\s*\zs[A-Za-z][A-Za-z_0-9]*\>\ze\s*[=:][^>]"
+syn match   gfFunction  "^\s*\zs[A-Za-z][A-Za-z_0-9]*\>\ze\s*.*[=:][^>]"
 syn match   gfDelimiter "(\|)\|\[\|\]\|,\|;\|_\|{\|}"
 syn match   gfSymbols   ":\|->\|\\\|\\\\\|=>"
 syn match   gfOperators "++\|+"
