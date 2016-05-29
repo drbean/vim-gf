@@ -23,7 +23,7 @@ syn match   gfOperators "++\|+"
 
 " Comments
 syn keyword gfTodo contained TODO FIXME XXX NOTE
-syn match   gfComment "--.*$" contains=celTodo
+syn match   gfComment "--.*$" contains=gfTodo
 syn region  gfComment start="{-" end="-}"
 " Strings
 syn region  gfString start='"' end='"'
